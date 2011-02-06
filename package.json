@@ -1,0 +1,16 @@
+{
+	"name": "asyncevents",
+	"version": "0.1.0",
+	"description": "Extension to EventEmitter to facilitate asynchronous firing of events, and asynchronous handling of those events.",
+	"keywords": "async,events,eventemitter,async events",
+	"author": "Sam Day <sam.c.day@gmail.com>",
+	"main": "./index.js",
+	"engines": { "node": ">= 0.2.0" },
+	"dependencies": {
+		"vows": ">= 0.5.6"
+	},
+	"repository" : {
+        "type" : "git",
+         "url" : "https://github.com/samcday/asyncevent.git"
+    }
+}
