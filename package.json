@@ -11,6 +11,6 @@
 	},
 	"repository" : {
         "type" : "git",
-         "url" : "https://github.com/samcday/asyncevent.git"
+         "url" : "https://github.com/samcday/asyncevents.git"
     }
 }
