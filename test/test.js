@@ -2,7 +2,7 @@ var vows		= require("vows"),
 	assert		= require("assert"),
 	TestEmitter = function() {};
 
-require("util").inherits(TestEmitter, require("../lib/asyncevents	").AsyncEventEmitter);
+require("util").inherits(TestEmitter, require("../lib/asyncevents").AsyncEventEmitter);
 var emitter = new TestEmitter();
 
 vows.describe("AsyncEventEmitter").addBatch({
