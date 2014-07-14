@@ -38,7 +38,7 @@ Observe, a different approach to http middleware.
 		// Gonna need to see if the file exists locally.
 		var callback = this.deferHandler();
 		
-		path.exists(someReferenceToDocumentRoot + url.parse(req.url).pathname, function(exists) {
+		fs.exists(someReferenceToDocumentRoot + url.parse(req.url).pathname, function(exists) {
 			// Invoking callback() with no arguments (or false, null, undefined) will transfer control to next handler.
 			if(!exists) return callback();
 
